@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ZyYmdzY3lv58l1Y5PC1kf9+Qp7a4CnlrSO/W9gT5DddcbMz5PnUGq0vF9J7eyIs6" crossorigin="anonymous">
+
+<head>
+    <link href="estilocont.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanWRLD</title>
+
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ZyYmdzY3lv58l1Y5PC1kf9+Qp7a4CnlrSO/W9gT5DddcbMz5PnUGq0vF9J7eyIs6" crossorigin="anonymous">
+
+<body>
+
+    <body class="body">
+        <header>
+            <!--Divisão entre as caixas-->
+            <div class="logo_caixa">
+                <img src="assets/logovoid.png" title="UrbanWRLD" class="logo" />
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="form.html">Cadastro</a></li>
+
+                </nav>
+            </div>
+            </div>
+        </header>
+        <div class="caixa">
+            <h2>Fale Conosco</h2>
+            <form action="respostaForm" method="post">
+                <label for="nome_completo">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="celular">Celular:</label>
+                <input type="text" id="celular" name="celular" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="seuemail@dominio.com">
+
+                <label for="mensagem">Mensagem</label>  
+                <textarea cols="70" rows="10"id="mensagem" class ="mensagem"name="mensagem" ></textarea>
+
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="contato" class="flex-label">
+                    Como prefere o nosso contato?
+                    <input type="radio" value="radio-mail" name="Contato"> E-mail
+                    <input type="radio" value="radio-telefone" name="Contato"> 
+                    <a href="https://api.whatsapp.com/send?phone=5511966065698" class="whatsapp-link"
+                     class="fab fa-whatsapp"> </i> Enviar mensagem no WhatsApp
+                    </a>
+                  </label>
+                  
+                  <label class="flex-label">
+                    <input type="checkbox" class="chk" class="check">Deseja receber novidades por email?
+                  </label>
+
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        <footer>
+            <img src="assets//logovoid.png" alt="UrbanWRLD" class="logo_fotter">
+            <p class="copyright">&copy; Copyright - Todos os direitos reservados para UrbanWRLD</p>
+        </footer>
+
+    </body>
+
+</html>
+</body>
+

@@ -1,0 +1,110 @@
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/*Estilização do HEADER da página*/
+header{
+    background-color: #000000;
+}
+/*Estilização do LOGOTIPO*/
+.logo{
+    width: 30%;
+}
+/*Estilização do MENU*/
+nav{
+    right: 0;
+    position: absolute;
+    top: 100px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+nav a:hover{
+    color: #ff0000;
+    text-decoration: underline;
+}
+.logo_caixa{
+    width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Estilos para a seção de formulário de cadastro */
+.caixa {
+    width: 70%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.caixa h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+.whatsapp-link {
+    display: inline-block;
+    padding: 10px;
+    background-color: #25d366; /* Cor de fundo do WhatsApp */
+    color: #fff; /* Cor do texto */
+    text-decoration: none; /* Remover sublinhado do link */
+  }
+ 
+
+ 
+  
+  
+  .whatsapp-link i {
+    margin-right: 5px; /* Espaçamento entre o ícone e o texto */
+  }
+  
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo_fotter {
+    width: 150px;
+    height: auto;
+}
